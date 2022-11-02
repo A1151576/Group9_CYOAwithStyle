@@ -25,6 +25,7 @@ hr {
 
 /* ----------------------------- Pedro CSS Pages 3-6 -------------------------------------*/
 
+/* template for all images */
 .pcImg {
     height: 450px;
     width: 400px;
@@ -32,6 +33,7 @@ hr {
     border-radius: 25px;
 }
 
+/* anything within this container will be able to adapt when window size changes */
 .box-container {
     display: flex;
     justify-content: space-around;
@@ -41,6 +43,7 @@ hr {
     padding: 3%;
 }
 
+/* this container sets the color scheme and positions of elements within it */
 .div-box{
     background-color: rgba(245, 245, 245, .85);
     border: 3px solid darkred;
@@ -51,11 +54,13 @@ hr {
     padding: 2%;
     margin: 1% 5%;
 }
+/* this container will center an item */
 .center-box {
     display: flex;
     justify-content: center;
 }
 
+/* this container will  */
 .right-box {
     display: flex;
     justify-content: flex-end;
