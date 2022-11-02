@@ -80,7 +80,19 @@ hr {
 
 /* ----------------------------- Maddie CSS Pages 7-10 -------------------------------------*/
 
-
+.oneWhoWaits{
+    height: 400px;
+    margin:auto;
+    display: block;
+}
+.card-container{
+    margin-top: 30px;
+    display:flex;
+    justify-content:center;
+}
+.titletext{
+    text-align:center;
+}
 
 /* ----------------------------- Maddie End CSS -------------------------------------------*/
 
