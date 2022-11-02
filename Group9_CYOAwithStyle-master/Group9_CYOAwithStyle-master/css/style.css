@@ -92,7 +92,22 @@ hr {
 .titletext{
     text-align:center;
 }
-
+.bow{
+    height: 400px;
+    margin:auto;
+    display: block;
+}
+.bow-text{
+    text-align: center;
+}
+.resist{
+    height: 400px;
+    margin:auto;
+    display: block;
+}
+.resist-text{
+    text-align: center;
+}
 
 
 /* ----------------------------- Maddie End CSS -------------------------------------------*/
