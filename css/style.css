@@ -92,6 +92,19 @@ hr {
 
 /* ----------------------------- Rafa CSS Pages index-2 -------------------------------------*/
 
+.banner{
+background-color: red;
+display: flex;
+justify-content: center;
+padding: 25px;
+height: 5cm;
+width: 15cm;
+
+
+
+}
+
+
 
 
 /* ----------------------------- Rafa End CSS -------------------------------------------*/
