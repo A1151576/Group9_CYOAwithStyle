@@ -93,17 +93,35 @@ hr {
 /* ----------------------------- Rafa CSS Pages index-2 -------------------------------------*/
 
 .banner{
-background-color: red;
+
 display: flex;
 justify-content: center;
-padding: 25px;
-height: 5cm;
-width: 15cm;
-
-
 
 }
 
+
+
+.startBttn{
+    display: flex;
+justify-content: center;
+justify-content: ;
+    
+    
+}
+.startBox{
+    background-color: rgb(250, 4, 4);
+    border: 3px solid darkred;
+    border-radius: 50%;
+    text-align: center;
+    min-height: auto;
+    max-width: 400px;
+    padding: 2%;
+    margin: 1% 5%;
+    
+   
+    
+}
+ 
 
 
 
