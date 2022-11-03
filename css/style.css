@@ -116,11 +116,21 @@ hr {
 
 
 /* ----------------------------- Maddie CSS Pages 7-10 -------------------------------------*/
+.pg7backimg{
+    background: url(../assets/Page7Background.jpeg) fixed;
+    
+}
+.contain{
+    margin:auto;
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+}
 
 .oneWhoWaits{
-    height: 400px;
+    height: 300px;
     margin:auto;
-    display: block;
+    display:block;
 }
 .card-container{
     margin-top: 30px;
@@ -149,6 +159,12 @@ hr {
 }
 .card-img-top{
     height:400px;
+}
+.pg9backimg{
+    background: url(../assets/TheOneWhoWaits.jpeg) fixed;
+}
+.pg10backimg{
+    background:url(../assets/FollowersWorshipStatue.jpeg) fixed;
 }
 
 /* ----------------------------- Maddie End CSS -------------------------------------------*/
