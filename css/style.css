@@ -92,11 +92,31 @@ hr {
 }
 .card-container{
     margin-top: 30px;
+    height:auto;
     display:flex;
     justify-content:center;
 }
 .titletext{
     text-align:center;
+}
+.bow{
+    height:500px;
+    margin:auto;
+    display:block;
+}
+.bow-text{
+    text-align:center;
+}
+.resist{
+    height: 400px;
+    margin:auto;
+    display:block;
+}
+.resist-text{
+    text-align: center;
+}
+.card-img-top{
+    height:400px;
 }
 
 /* ----------------------------- Maddie End CSS -------------------------------------------*/
