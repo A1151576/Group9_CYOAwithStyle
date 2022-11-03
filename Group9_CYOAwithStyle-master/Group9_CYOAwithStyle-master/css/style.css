@@ -25,6 +25,7 @@ hr {
 
 /* ----------------------------- Pedro CSS Pages 3-6 -------------------------------------*/
 
+/* template for all images */
 .pcImg {
     height: 450px;
     width: 400px;
@@ -32,6 +33,7 @@ hr {
     border-radius: 25px;
 }
 
+/* anything within this container will be able to adapt when window size changes */
 .box-container {
     display: flex;
     justify-content: space-around;
@@ -41,6 +43,7 @@ hr {
     padding: 3%;
 }
 
+/* this container sets the color scheme and positions of elements within it */
 .div-box{
     background-color: rgba(245, 245, 245, .85);
     border: 3px solid darkred;
@@ -51,11 +54,13 @@ hr {
     padding: 2%;
     margin: 1% 5%;
 }
+/* this container will center an item */
 .center-box {
     display: flex;
     justify-content: center;
 }
 
+/* this container will  */
 .right-box {
     display: flex;
     justify-content: flex-end;
@@ -79,6 +84,7 @@ hr {
 
 
 /* ----------------------------- Maddie CSS Pages 7-10 -------------------------------------*/
+
 .oneWhoWaits{
     height: 400px;
     margin:auto;
@@ -86,6 +92,7 @@ hr {
 }
 .card-container{
     margin-top: 30px;
+    height:auto;
     display:flex;
     justify-content:center;
 }
@@ -93,22 +100,24 @@ hr {
     text-align:center;
 }
 .bow{
-    height: 400px;
+    height:500px;
     margin:auto;
-    display: block;
+    display:block;
 }
 .bow-text{
-    text-align: center;
+    text-align:center;
 }
 .resist{
     height: 400px;
     margin:auto;
-    display: block;
+    display:block;
 }
 .resist-text{
     text-align: center;
 }
-
+.card-img-top{
+    height:400px;
+}
 
 /* ----------------------------- Maddie End CSS -------------------------------------------*/
 
@@ -119,17 +128,42 @@ hr {
 /* ----------------------------- Rafa CSS Pages index-2 -------------------------------------*/
 
 .banner{
-background-color: red;
+
 display: flex;
 justify-content: center;
-padding: 25px;
-height: 5cm;
-width: 15cm;
-
-
 
 }
 
+
+
+.startBttn{
+    display: flex;
+justify-content: center;
+    
+    
+}
+.startBox{
+    background-color: rgb(250, 4, 4);
+    border: 3px solid darkred;
+    border-radius: 25%;
+    Text-align: center;
+    min-height: auto;
+    max-width: 400px;
+    padding: 2%;
+    margin: 20%;
+    display: flex;
+    justify-content:last baseline ;      
+    
+   
+    
+}
+.moverBox{
+    display: flex;
+justify-content: center;
+
+
+}
+ 
 
 
 
