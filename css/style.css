@@ -163,8 +163,10 @@ hr {
 
 
 margin: 5%;
-padding: 10%
-
+padding: 10%;
+  display: flex;
+justify-content: center;
+border: 15px;
 }
 
 
@@ -172,7 +174,7 @@ padding: 10%
 .startBttn{
     display: flex;
 justify-content: center;
-justify-content: ;
+
     
     
 }
@@ -210,6 +212,10 @@ justify-content:center ;
 .picSegun{
     background: url(/assets/COTL_13.webp) no-repeat center fixed;
     background-size: cover;
+}
+.picTrez{
+    background: url(/assets/TheOneWhoWaits.jpeg) no-repeat center fixed;
+    back
 }
  
 
