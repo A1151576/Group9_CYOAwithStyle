@@ -1,5 +1,8 @@
+/* @import will import a font-family from google */
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Space+Mono&display=swap');
 /*  Global Selectors */
+/* In here we will have css selectors that we agree will be the same through-out the story */
+
 body {
     background-color: black;
     font-family: 'Poor Story', monospace;
@@ -21,7 +24,6 @@ hr {
     border: 3px solid darkred;
     border-radius: 25px;
 }
-/* In here we will have css selectors that we agree will be the same through-out the story */
 
 /* ----------------------------- Pedro CSS Pages 3-6 -------------------------------------*/
 
@@ -46,6 +48,8 @@ hr {
     background-size: cover;
 }
 
+/* END background images for pages 3 - 6 */
+
 /* template for all images */
 .pcImg {
     height: 450px;
@@ -54,7 +58,12 @@ hr {
     border-radius: 25px;
 }
 
-/* anything within this container will be able to adapt when window size changes */
+/* changes opacity on select images */
+.imgOpacity {
+    opacity: .75;
+}
+
+/* anything within this class will be able to adapt when window size changes */
 .box-container {
     display: flex;
     justify-content: space-around;
@@ -64,7 +73,7 @@ hr {
     padding: 3%;
 }
 
-/* this container sets the color scheme and positions of elements within it */
+/* this class sets the color scheme and positions of elements within it */
 .div-box{
     background-color: rgba(245, 245, 245, .85);
     border: 3px solid darkred;
@@ -75,18 +84,19 @@ hr {
     padding: 2%;
     margin: 1% 5%;
 }
-/* this container will center an item */
+/* this class will center an item */
 .center-box {
     display: flex;
     justify-content: center;
 }
 
-/* this container will  */
+/* this class will move its items to the right side of browser */
 .right-box {
     display: flex;
     justify-content: flex-end;
 }
 
+/* this class will move its itmes to the left side of browser */
 .left-box {
     display: flex;
     justify-content: start;
@@ -95,6 +105,7 @@ hr {
     float: left;
 }
 
+/* this class styles ONLY the quit buttons */
 .quitBtns {
     background-color: rgba(139, 0, 0, 0.45);
 }
