@@ -92,11 +92,31 @@ hr {
 }
 .card-container{
     margin-top: 30px;
+    height:auto;
     display:flex;
     justify-content:center;
 }
 .titletext{
     text-align:center;
+}
+.bow{
+    height:500px;
+    margin:auto;
+    display:block;
+}
+.bow-text{
+    text-align:center;
+}
+.resist{
+    height: 400px;
+    margin:auto;
+    display:block;
+}
+.resist-text{
+    text-align: center;
+}
+.card-img-top{
+    height:400px;
 }
 
 /* ----------------------------- Maddie End CSS -------------------------------------------*/
@@ -108,17 +128,44 @@ hr {
 /* ----------------------------- Rafa CSS Pages index-2 -------------------------------------*/
 
 .banner{
-background-color: red;
+
 display: flex;
 justify-content: center;
-padding: 25px;
-height: 5cm;
-width: 15cm;
-
-
 
 }
 
+
+
+.startBttn{
+    display: flex;
+justify-content: center;
+justify-content: ;
+    
+    
+}
+.startBox{
+    background-color: rgb(250, 4, 4);
+    border: 3px solid darkred;
+    border-radius: 25%;
+    Text-align: center;
+    min-height: auto;
+    max-width: 400px;
+    padding: 2%;
+    margin: 20%;
+    display: flex;
+    justify-content:last baseline ;      
+    
+   
+    
+}
+.moverBox{
+    display: flex;
+justify-content: center;
+justify-content:
+
+
+}
+ 
 
 
 
