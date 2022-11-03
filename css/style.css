@@ -25,6 +25,27 @@ hr {
 
 /* ----------------------------- Pedro CSS Pages 3-6 -------------------------------------*/
 
+/* START background images for pages 3 - 6 */
+.page6BgImg {
+    background: url(../assets/ThreeGods.jpeg) fixed no-repeat;
+    background-size: cover;
+}
+
+.page5BgImg {
+    background: url(../assets/Statue.jpeg) fixed no-repeat;
+    background-size: cover;
+}
+
+.page4BgImg {
+    background: url(../assets/Page4Background.jpeg) fixed no-repeat;
+    background-size: cover;
+}
+
+.page3BgImg {
+    background: url(../assets/WillYouBow1.jpeg) fixed no-repeat;
+    background-size: cover;
+}
+
 /* template for all images */
 .pcImg {
     height: 450px;
