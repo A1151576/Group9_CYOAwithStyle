@@ -153,8 +153,7 @@ hr {
 
 margin: 5%;
 padding: 10%;
-  display: flex;
-justify-content: center;
+  
 border: 15px;
 }
 
@@ -176,6 +175,8 @@ justify-content: center;
     max-width: 800px;
     padding: 2%;
     margin: 20%;
+    display: flex;
+    justify-content: space-around;
 
         
     
@@ -203,11 +204,14 @@ justify-content:center ;
     background-size: cover;
 }
 .picTrez{
-    background: url(/assets/TheOneWhoWaits.jpeg) no-repeat center fixed;
-    back
-}
- 
+    background: url(/assets/ThreeGods.jpeg) no-repeat center fixed;
+    background-size: cover;
 
+}
+ .conts{
+    background-color: rgba(139, 0, 0, 0.45);
+
+ }
 
 
 /* ----------------------------- Rafa End CSS -------------------------------------------*/
