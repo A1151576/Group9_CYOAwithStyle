@@ -167,16 +167,15 @@ padding: 10%;
   
 border: 15px;
 }
-
-
-
-.startBttn{
-    display: flex;
-justify-content: center;
-
-    
-    
+.estart{
+    font-family:fantasy ;
+    background-color: rgba(139, 0, 0, 0.45);
 }
+
+
+    
+    
+
 .startBox{
     background-color: rgb(250, 4, 4);
     border: 3px solid darkred;
@@ -203,7 +202,7 @@ justify-content: center;
 margin: 25px;
 padding: 25px;
 display: flex;
-justify-content:center ;
+justifycontent:center ;
 }
 .picUno{
     background: url(/assets/cultofthelamb.webp) no-repeat center fixed;
@@ -215,7 +214,7 @@ justify-content:center ;
     background-size: cover;
 }
 .picTrez{
-    background: url(/assets/ThreeGods.jpeg) no-repeat center fixed;
+    background: url(/assets/cult_of_the_lamb\ \(10\).jpg) no-repeat center fixed;
     background-size: cover;
 
 }
